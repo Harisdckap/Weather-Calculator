@@ -1,0 +1,91 @@
+body {
+  max-width: 1200px;
+  padding: 0px;
+  margin: 0px;
+  font-family: monospace;
+  background-image: url(W.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#Main_Container {
+  width: 100%;
+
+}
+#Weather_Condition {
+  width: 27%;
+  height : 500px;
+  margin: 30px auto;
+  padding: 20px;
+  position: relative;
+  top: 17px;
+  left: 34px;
+  border-radius: 11px;
+  background: rgb(170, 201, 201);
+  background-position: center;
+  background-size: 100% 100%;
+  box-shadow: 0px 0px 10px #000000;
+}
+#Search_Container {
+  display: flex;
+  gap: 80px;
+  align-items: center;
+  justify-content: center;
+}
+input.Input_Text {
+  padding: 8px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+}
+.Weather_Calculation,
+#Wied_Speed {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+}
+p.Number_Metric,
+p.place_Weather {
+  text-align: center;
+}
+p.Number_Metric {
+  font-size: 30px;
+}
+p.place_Weather {
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+}
+.Celcsius {
+  display: flex;
+  justify-content: center;
+  gap: 26px;
+  margin: 15px;
+  padding: 15px;
+  align-items: center;
+}
+p {
+  text-align: center;
+  font-weight: 900;
+}
+button.Button_Calc {
+  background-color: #7fdbff;
+}
+button.Search_Icon {
+  border-radius: 50px;
+  width: 44px;
+  border: none;
+  cursor: pointer;
+}
+button.Search_Icon:hover {
+  background-color: cadetblue;
+}
+img {
+  width: 65px;
+}
+div#Current_Conditions {
+  display: flex;
+  gap: 40px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 200px;
+}

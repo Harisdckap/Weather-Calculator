@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather Calculation</title>
+  <script src="https://cdn.lordicon.com/lordicon.js"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="Main_Container">
+    <div id="Weather_Condition">
+      <div id="Search_Container">
+        <div class="Search_Input">
+          <input type="text" class="Input_Text" placeholder="Search City" />
+        </div>
+        <button class="Search_Icon" type="submit">
+          <lord-icon src="https://cdn.lordicon.com/fkdzyfle.json" style="width: 30px; height: 30px">
+          </lord-icon>
+        </button>
+      </div>
+      <div class="Celcsius">
+        <div class="Celcsius_Img">
+          <img src="1163661.png" alt="" class="celsisus_weather">
+        </div>
+        <div>
+          <p class="Number_Metric">0&#8451;</p>
+          <p class="place_Weather"></p>
+        </div>
+      </div>
+      <div id="Current_Conditions">
+        <div class="Weather_Calculation">
+          <div class="Hum_Img">
+            <img src="4148460.jpeg">
+          </div>
+          <div class="Humanity">
+            <p class="Humanity_Celsius">0%</p>
+            <p>Humility</p>
+          </div>
+        </div>
+        <div id="Wied_Speed" style="display: flex;">
+          <div class="Wid_Img">
+            <img src="3740904.jpeg" alt="">
+          </div>
+          <div class="Wind_Spee">
+            <p class="Wind_Celsius">0km/h</p>
+            <p>Wind_Speed</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
